@@ -49,7 +49,10 @@ When the user uninstall the app from the device, the internal storage file will 
 
 ## How did you hide the API url ?
 
-First We use proguard to get a Bytecode Harder to read (also proguard will remove the debug log during the release). 
+To hide the API url during the exchange between the app and the API, we used a TLS connection.
+
+And to hide the API url against reverse engineering with the apk file,
+we use proguard to get a Bytecode harder to read (also proguard will remove the debug log during the release). 
 
 To strengthen it we also used a gradle plugin called Enigma.
 
@@ -125,6 +128,9 @@ Kotlin code is fully compatible with Java code so we can get the API URL from ou
 ## A list of technologies used within the project:
 - Enigma : Version 1.0.0.8
 - Gson : Version 2.8.5
+- TLS
+- Proguard
+- Srink code
 
 ## Permissions 
 -  ACCES_NETWORK_STATE : to check if the app is connected to the internet.
