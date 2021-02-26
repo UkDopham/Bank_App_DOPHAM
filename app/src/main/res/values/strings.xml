@@ -1,3 +1,22 @@
 <resources>
-    <string name="app_name">Bank_App_DOPHAM</string>
+    <string name="app_name">M1 Secure Development</string>
+    <string name= "back">back</string>
+    <string name ="null_value">null</string>
+
+    <string name="activity_main_title">Login</string>
+    <string name="activity_main_title_default_value">ID</string>
+    <string name="activity_main_button">Login</string>
+    <string name="activity_main_reset_button">Reset</string>
+
+    <string name="user_page_title">User Information</string>
+    <string name="user_page_id">ID</string>
+    <string name="user_page_name">NAME</string>
+    <string name="user_page_last">LASTNAME</string>
+    <string name="user_page_default">NULL</string>
+    <string name ="user_page_button">Acces to the accounts</string>
+
+    <string name ="account_page_refresh_button">Refresh</string>
+    <string name ="account_page_title">Accounts Informations</string>
+
+    <string name ="selected_account_page_title">Account Informations</string>
 </resources>
