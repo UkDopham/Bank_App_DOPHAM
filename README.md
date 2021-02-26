@@ -6,10 +6,12 @@
 ## DO PHAM Alexandre IOS1
 
 ## Table of Contents
-1. [Checking the user](#UserID) 
+1. [Checking the user's ID](#UserID) 
 2. [User's data](#Userdata)
 3. [Hiding the API URL](#HidingURL)
 4. [Screenshots](#Screenshots)
+5. [Technologies](#Technologies)
+6. [Permissions](#Permissions)
 
 ## Explain how you ensure user is the right one starting the app ? 
 
@@ -119,3 +121,11 @@ Kotlin code is fully compatible with Java code so we can get the API URL from ou
 <img src="img/account_details_page.jpg" width="200">
 
 > When we click on an account in the Accoutns page we can see its details inside a new page.
+
+## A list of technologies used within the project:
+- Enigma : Version 1.0.0.8
+- Gson : Version 2.8.5
+
+## Permissions 
+-  ACCES_NETWORK_STATE : to check if the app is connected to the internet.
+-  INTERNET : to connect to the internet
